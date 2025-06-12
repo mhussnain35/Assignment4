@@ -1,0 +1,18 @@
+[
+    {
+        "role": "user",
+        "content": "Explain the agentic ai shortly"
+    },
+    {
+        "role": "assistant",
+        "content": "Agentic AI refers to **artificial intelligence systems that can autonomously set goals, plan, and execute actions to achieve those goals, without explicit human instruction at every step.**\n\nThink of it like this:\n\n*   **Traditional AI:** You tell it exactly what to do and how to do it (e.g., \"classify these images\").\n*   **Agentic AI:** You tell it *what* you want to achieve (e.g., \"increase website traffic\"), and it figures out *how* to do it, breaking the task into smaller steps, using tools, learning from its mistakes, and adapting its plan as needed.\n\n**Key characteristics:**\n\n*   **Goal-oriented:** It needs a clear objective.\n*   **Autonomous:** It can make decisions and take actions on its own.\n*   **Planning:** It can develop a sequence of actions to reach its goal.\n*   **Execution:** It can carry out the planned actions.\n*   **Learning & Adaptation:** It can evaluate its performance and adjust its approach.\n*   **Use of Tools:**  It often utilizes other AI models, APIs, and software to achieve its goals.\n*   **Memory/Context Retention:** It can remember past actions and outcomes to inform future decisions.\n\n**In short, agentic AI strives to create intelligent systems that can act like autonomous agents working towards a defined objective.** This has the potential to automate complex tasks, solve problems creatively, and adapt to changing environments in ways that traditional AI can't.\n"
+    },
+    {
+        "role": "user",
+        "content": "Explain the langgraph shortly"
+    },
+    {
+        "role": "assistant",
+        "content": "LangGraph is a Python library built on top of LangChain that makes it easier to **build and manage complex, stateful, and multi-actor conversational AI applications using the concept of a graph.**\n\nHere's a short breakdown:\n\n*   **Graph-based Architecture:**  Instead of a simple chain of operations, LangGraph lets you define your application's logic as a graph where nodes represent steps (like calling an LLM, parsing data, or making decisions) and edges represent transitions between those steps based on certain conditions.\n\n*   **Stateful Conversations:**  It maintains a state that persists throughout the conversation, allowing your application to remember past interactions and make informed decisions based on the history.\n\n*   **Multi-Actor Support:**  It facilitates the creation of systems with multiple agents or actors, each with its own role and responsibilities, interacting within the same conversation flow.  Think of different LLMs specializing in different tasks and working together.\n\n*   **Control Flow:**  It allows for complex control flow within your application, enabling branching logic, conditional execution of steps, loops, and error handling.\n\n*   **Easier Debugging and Maintenance:**  The graph structure provides a clear visual representation of your application's logic, making it easier to understand, debug, and maintain.\n\n**In essence, LangGraph helps you move beyond simple, linear conversational AI chains to build more sophisticated and dynamic applications that can handle complex tasks, maintain context, and involve multiple actors working together.** It's a powerful tool for building advanced AI assistants, autonomous agents, and other complex conversational applications.\n"
+    }
+]
