@@ -31,3 +31,4 @@ Run the Chatbot chainlit run main.py Then open the local URL (e.g., [http://loca
 💾 Chat History At the end of every session, the complete chat is saved as:
 
 [ { "role": "user", "content": "Hello, who are you?" }, { "role": "assistant", "content": "I'm your AI assistant. How can I help you today?" } ] The file is saved as chat_history.json in the root directory.
+![Ss](/A4_output.png)
